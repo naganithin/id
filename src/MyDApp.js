@@ -361,7 +361,7 @@ export const MyDApp = () => {
 
             <QRCode
               title="SEID"
-              value="https://raw.githubusercontent.com/naganithin/id/main/src/Net%20Zero%20Jounrey.png"
+              value="https://sapphire-cautious-crab-180.mypinata.cloud/ipfs/QmYCnqGxb5VgMMnoKPqk3gr4mCEQTE1WDyTFEsHVZtpYtL"
               bgColor="white"
               fgColor="black"
               size="100"
