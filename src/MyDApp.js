@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import QRCode from "react-qr-code";
+import html2canvas from "html2canvas";
 
 export const MyDApp = () => {
   const [userDetails, setUserDetails] = useState(null);
@@ -287,7 +288,6 @@ export const MyDApp = () => {
 
         // Fetch user details from the contract
         const details = await contract.getUserDetails(userAddress);
-
         setUserDetails(details);
       };
 
