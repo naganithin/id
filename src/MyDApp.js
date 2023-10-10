@@ -361,7 +361,7 @@ export const MyDApp = () => {
 
             <QRCode
               title="SEID"
-              value="https://www.sustainabilityeconomics.com/static/media/Logonew1.e23c1d84a7cd59b49431443c3f0eee09.svg"
+              value="https://raw.githubusercontent.com/naganithin/id/main/src/Net%20Zero%20Jounrey.png"
               bgColor="white"
               fgColor="black"
               size="100"
